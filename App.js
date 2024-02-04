@@ -68,7 +68,9 @@ export default function App() {
           return <Text key={index}>{el}</Text>;
         })}
       </View>
-
+      <Pressable>
+        <Text>To Form Page</Text>
+      </Pressable>
       <StatusBar style="auto" />
     </SafeAreaView>
   );
@@ -80,6 +82,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
+    marginTop: 25,
   },
 
   text: {
